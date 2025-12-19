@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RADIONYX — Coming Soon</title>
+  <meta name="description" content="RADIONYX medical equipment — website coming soon." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Ambient blobs -->
+  <div class="blob blob--1" aria-hidden="true"></div>
+  <div class="blob blob--2" aria-hidden="true"></div>
+  <div class="blob blob--3" aria-hidden="true"></div>
+
+  <!-- Particle layer -->
+  <div class="particles" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <main class="wrap">
+    <section class="card">
+      <div class="topline">
+        <div class="status-pill">
+          <span class="dot"></span>
+          Under construction
+        </div>
+
+        <img src="assets/logo_circle.png" alt="RADIONYX emblem" class="logo-circle" />
+      </div>
+
+      <img src="assets/logo_name.png" alt="RADIONYX" class="logo-wordmark" />
+
+      <p class="text">
+        Precision. Reliability. Medical technology.
+        <span class="muted">Launching soon.</span>
+      </p>
+
+      <div class="shimmer" aria-hidden="true"></div>
+
+      <footer class="footer">
+        <span class="mini-dot"></span>
+        © <span id="year"></span> RADIONYX — All rights reserved
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
